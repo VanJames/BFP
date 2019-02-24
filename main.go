@@ -135,7 +135,7 @@ func main(){
 				fmt.Println("找到完整路径：",v,"长度：",len(v))
 			}
 		}
-		//fmt.Println(allpath[int64(k)])
+		fmt.Println(allpath[int64(k)],"长度：",len(allpath[int64(k)]))
 	}
 
 }
